@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #27374D;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3282B8;
+    margin-bottom: 10px;
+}
+
+#barra {
+    background-color: black;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+#horario {
+    background-image: url(../imagen/fondo.jpg);
+    display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    height: 175px;
+}
+
+#titulo {
+    color: #0F4C75;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#enunciado {
+    margin-top: 17px;
+    margin-left: 12px;
+    color: #6096B4;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+#enunciado:hover {
+    color: #607bb4;
+}
+
+#lista {
+    margin-top: 5px;
+    color: #BBE1FA;
+    text-align: center;
+}
+
+li {
+    margin-top: 2px;
+}
+
+#imagen {
+    margin-left: 10px;
+    height: 40px;
+    width: 50px;
+    margin-right: 470px;
+}
+
+.separacion {
+    background-color: white;
+    color: white;
+}
+
+h2 {
+    color: #526D82;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#programacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#enlace {
+    text-decoration: none;
+}
+
+#prog {
+    color: #9DB2BF;
+}
+
+#cont_programacion {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    display: flex;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_programacion:hover {
+    color: #9ca7b1;
+}
+
+#java {
+    margin-top: 10px;
+    margin-right: 280px;
+    background-image: url(../imagen/hacker.webp);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #1B262C;
+    opacity: 0.7;
+    width: auto;
+}
+
+.separacion_contenido {
+    background-color: white;
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#sistemas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cont_sistemas {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    display: flex;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_sistemas:hover {
+    color: #9ca7b1;
+}
+
+#descarga {
+    margin-left: 0px;
+    margin-top: 120px;
+    color: #B7C4CF;
+}
+
+#ubuntu {
+    margin-top: 10px;
+    margin-right: 430px;
+    background-image: url(../imagen/frio.jpg);
+    border-radius: 10px;
+    box-shadow: 6px 7px 7px 6px #000000;
+    opacity: 0.7;
+    width: auto;
+    position: relative;
+}
+
+#ubuntu:hover {
+    background-image: url(../imagen/frio.jpg);
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+#asignatura {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #3282B8;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-image: url(../imagen/lista.png);
+}
+
+ul li::marker {
+    color: #3282B8;
+}
+
+#entornos {
+    display: flex;
+}
+
+#cont_entornos {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    display: flex;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_entornos:hover {
+    color: #9ca7b1;
+}
+
+#ide {
+    color: #3282B8;
+    margin-top: 0px;
+}
+
+#enlaceide {
+    text-decoration: none
+}
+
+#imgide {
+    margin-left: 200px;
+    border-radius: 100px;
+    background-color: azure;
+    box-shadow: 6px 7px 7px orangered;
+    opacity: 0.8;
+    width: auto;
+    position: relative;
+}
+
+#bases {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cont_bases{
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    display: flex;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_bases:hover {
+    color: #9ca7b1;
+}
+
+#imgbbdd {
+    margin-right: 120px;
+    border-radius: 100px;
+    background-color: azure;
+    box-shadow: 6px 7px 7px 7px black;
+    opacity: 0.8;
+    width: auto;
+    position: relative;
+}
+
+#lenguaje {
+    display: flex;
+}
+
+#cont_lenguaje {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_lenguaje:hover{
+    color: #9ca7b1;
+}
+
+#vscode {
+    margin-left: 40px;
+}
+
+#descargavs {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3282B8;
+}
+
+#imgvs {
+    border-radius: 50px;
+    margin-left: 10px;
+    box-shadow: 6px 7px 7px 7px black;
+    opacity: 0.8;
+    width: 200px;
+    position: relative;
+    background-color: #1B262C;
+}
+
+#imgvs:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+#pluggin {
+    margin-left: 80px;
+}
+
+#plug_leng {
+    list-style-type: none;
+}
+
+#plug_lenguaje {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#video_plug {
+    margin-top: 40px;
+    color: #607bb4;
+}
+
+#video_plug:hover {
+    color: #7595da;
+}
