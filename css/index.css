@@ -259,18 +259,12 @@ ul li::marker {
     border-left-width: 2px;
 }
 
-#cont_lenguaje:hover{
+#cont_lenguaje:hover {
     color: #9ca7b1;
 }
 
 #vscode {
     margin-left: 40px;
-}
-
-#descargavs {
-    margin-top: 10px;
-    margin-left: 10px;
-    color: #3282B8;
 }
 
 #imgvs {
@@ -312,4 +306,43 @@ ul li::marker {
 
 #video_plug:hover {
     color: #7595da;
+}
+
+#nube {
+    display: flex;
+}
+
+#cont_nube {
+    padding: 5px;
+    margin-left: 30px;
+    color: #B7C4CF;
+    border-left-color: #ffff;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+#cont_nube:hover{
+    color: #9ca7b1;
+}
+
+#awsacademy {
+    margin-left: 200px;
+}
+
+#imgaws {
+    margin-left: 10px;
+    opacity: 0.8;
+    position: relative;
+}
+
+#imgaws:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+#final {
+    background-color: black;
+    color: black;
+    height: 40px;
+    border-color: #000000;
 }
